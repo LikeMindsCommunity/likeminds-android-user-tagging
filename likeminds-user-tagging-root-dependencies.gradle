@@ -1,9 +1,9 @@
 ext.versions = [:]
-versions.compile_sdk = 34
+versions.compile_sdk = 35
 versions.min_sdk = 21
-versions.target_sdk = 34
+versions.target_sdk = 35
 versions.library_version_major = '1'
-versions.library_version_minor = '2'
+versions.library_version_minor = '3'
 versions.library_version_patch = '0'
-versions.library_version_code = 4
+versions.library_version_code = 5
 ext.versions = versions
