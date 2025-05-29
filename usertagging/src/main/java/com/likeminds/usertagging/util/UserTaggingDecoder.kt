@@ -46,7 +46,7 @@ object UserTaggingDecoder {
         }
         val matches = REGEX_USER_TAGGING.findAll(text, 0)
         textView.setText(text, TextView.BufferType.EDITABLE)
-        matches.toList().reversed().forEach { matchResult ->
+        matches.toList().asReversed().forEach { matchResult ->
             val start = matchResult.range.first
             val end = matchResult.range.last
             val value = matchResult.value
@@ -140,7 +140,7 @@ object UserTaggingDecoder {
         }
         val matches = REGEX_USER_TAGGING.findAll(text, 0)
         editText.setText(text, TextView.BufferType.EDITABLE)
-        matches.toList().reversed().forEach { matchResult ->
+        matches.toList().asReversed().forEach { matchResult ->
             val start = matchResult.range.first
             val end = matchResult.range.last
             val value = matchResult.value
